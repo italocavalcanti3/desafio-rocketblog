@@ -6,10 +6,45 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap" rel="stylesheet">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Desafio | Rocketblog</title>
 </head>
 <body>
+  <section class="main">
+    <div class="container">
+      <header>
+        <img src="/assets/logo.svg" alt="The Blog">
+        <nav>
+          <ul>
+            <li class="active"><a href="#"><a href="">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Categorias</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="search-bar">
+          <label for="search-bar" class="search-bar">
+            <input type="search" name="search-bar" id="search-bar" placeholder="Buscar">
+            <button type="button"><img src="/assets/search.svg" alt="Botão buscar"></button>
+          </label>
+        </div>
+      </header>
+      <div class="content">
+        <div class="featured">
+          <h1>Veja o guia definitivo para conquistar seus objetivos como DEV em 2022</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nibh nibh eu in aliquet ut adipiscing neque. Sed volutpat aenean sit vitae, sed tristique placerat hac. </p>
+          <a href="#" class="veja-mais">
+            <span>Veja mais</span>
+            <img src="/assets/arrow-right.svg" alt="Ícone de veja mais">
+          </a>
+        </div>
+        <img src="/assets/featured-image.png" alt="Imagem de tela com códigos">
+      </div>
+    </div>
+    <div class="footer-line"></div>
+  </section>
   
+  <section class="posts"></section>
 </body>
 </html>
