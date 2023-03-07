@@ -99,7 +99,6 @@ body {
 }
 .main .container .content {
   margin-top: 64px;
-  margin-bottom: 64px;
   display: flex;
   align-items: center;
   justify-content: space-between;
