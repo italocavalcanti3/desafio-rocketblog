@@ -29,7 +29,6 @@ body {
 
 .main {
   background: var(--purple-bg);
-  
 
   .container {
     max-width: 1170px;
@@ -178,7 +177,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, auto);
-    grid-gap: 0 130px;
+    justify-items: flex-end;
 
     > .post {
       display: flex;
@@ -188,6 +187,7 @@ body {
     }
 
     .sideposts {
+      max-width: 472px;
       display: flex;
       flex-direction: column;
       gap: 23.59px;
@@ -204,6 +204,10 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
+
+    .post img {
+      max-width: 370px;
+    }
   }
 
   .post {
